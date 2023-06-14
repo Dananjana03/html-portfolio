@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Snowy Christmas Items</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(191, 0, 0);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 700px; /* only for demonstration, should be removed */
+  background: rgb(229, 178, 255);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 30px;
+  width: 70%;
+  background-color: #f1f1f1
+  height: 700px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(0, 177, 12);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+<header>
+    <img style="height: 150px; width: 150px;" src="Snowylogo.png" alt="logi">
+  <h2>Snowy Christmas Items</h2>
+  <h9 style="font-size: large;">  S T A T I O N E R Y </h9>
+</header>
+
+<section>
+  <nav>
+    <div>
+        <br>
+        <br>
+    <img style="height: 260px; width: 440px;" src="E.png" alt="wish">
+    </div>
+    <br>
+    <br>
+    <br>
+    <p style="font-size: 40pt;"><span style="color: red;">15%</span> “off orders over 1500 LKR at Snowy items”</p>
+  </nav>
+  
+  <article>
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+    <h1 style="text-align: center;">Lights</h1>
+  <a target="_blank" href="light.png">
+    <img src="light.png" alt="light" width="600" height="400">
+  </a>
+  <div class="desc">Strings of small electric bulbs that
+    are used to decorate homes, trees,
+    and other
+    objects during the Christmas season.
+    </br>
+    </br>
+    </br>
+    </br>
+    <p>900/= LKR </p></br>
+    <button style="background-color: rgb(204, 0, 0); color: #ccc;">Buy Now</button>
+</div>
+    
+</div>
+
+<div class="gallery">
+    <h1 style="text-align: center;">Ornaments Set</h1>
+  <a target="_blank" href="Ornament.png">
+    <img src="Ornament.png" alt="Ornaments Set" width="600" height="400">
+  </a>
+  <div class="desc">Small decorative
+    objects that are hung on a
+    Christmas tree or used to
+    decorate homes during the
+    Christmas season.
+    </br>
+    </br>
+    </br>
+    </br>
+    <p>1250/= LKR </p></br>
+    <button style="background-color: rgb(204, 0, 0); color: #ccc;">Buy Now</button>
+    </div>
+    </div>
+
+<div class="gallery">
+    <h1 style="text-align: center;">Santa Claus</h1>
+  <a target="_blank" href="Santa.png">
+    <img src="Santa.png" alt="Santa Claus" width="600" height="400">
+  </a>
+  <div class="desc">A mythical figure said to bring gifts
+    to children on Christmas Eve is
+    typically depicted as a plump, jolly
+    old man with a white beard, red
+    suit, and black boots.
+    </br>
+    </br>
+    <p>999/= LKR </p></br>
+    <button style="background-color: rgb(204, 0, 0); color: #ccc;">Buy Now</button>
+    </div>
+    </div>
+
+<div class="gallery">
+    <h1 style="text-align: center;">Tinsel</h1>
+  <a target="_blank" href="Tinsel.png">
+    <img src="Tinsel.png" alt="Tinsel" width="600" height="400">
+  </a>
+  <div class="desc">Long, thin strips of shiny material
+    that are used to decorate Christmas
+    trees and other objects.
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    <p>150/= LKR </p></br>
+    <button style="background-color: rgb(204, 0, 0); color: #ccc;">Buy Now</button>
+    </div>
+    </div>
+
+<div class="gallery">
+    <h1 style="text-align: center;">Christmas Tree</h1>
+  <a target="_blank" href="tree.png">
+    <img src="tree.png" alt="Tree" width="600" height="400">
+  </a>
+  <div class="desc">A large tree, usually an evergreen,
+    is decorated with lights and
+    ornaments during Christmas.
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    <p>4999LKR </p></br>
+    <button style="background-color: rgb(204, 0, 0); color: #ccc;">Buy Now</button>
+    </div>
+    </div>
+
+</body>
+</html>
+  </article>
+</section>
+
+<footer style="text-align: left;">
+  <p>Contact : 1-605-313-4000</p>
+  <P>Address : Snowy Items, 1234, Elf Road, North pole</P>
+</footer>
+
+</body>
+</html>
+
